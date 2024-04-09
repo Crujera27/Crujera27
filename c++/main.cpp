@@ -1,5 +1,5 @@
 #include <iostream>
-#include "http_request.hpp" // Incluye el archivo con las definiciones y funciones
+#include "http_request.hpp" //  Esto importa el archivo con las funciones para que las puedas utilizar.
 
 
 int main()
@@ -16,7 +16,7 @@ int main()
     std::string types = extractField(responseData, "types");
     std::string stats = extractField(responseData, "stats");
 
-    // Imprimir los valores extraídos
+    // Imprimir los valores extraídos en la terminal
     std::cout << "abilities: " << abilities << std::endl;
     std::cout << "moves: " << moves << std::endl;
     std::cout << "types: " << types << std::endl;
